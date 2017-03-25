@@ -12,12 +12,12 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE_ENVELOPE = "CREATE TABLE " + DatabaseContract.EnvelopeEntry.TABLE_NAME
             + " ( "
-            + DatabaseContract.EnvelopeEntry._ID + " INTEGER AUTOINCREMENT PRIMARY KEY, "
+            + DatabaseContract.EnvelopeEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + DatabaseContract.EnvelopeEntry.COLUMN_ENVELOPE_TITLE + " TEXT, "
             + DatabaseContract.EnvelopeEntry.COLUMN_CREATED_AT + " DATETIME DEFAULT CURRENT_TIMESTAMP, "
             + DatabaseContract.EnvelopeEntry.COLUMN_CARDS_COUNT + " INTEGER, "
             + DatabaseContract.EnvelopeEntry.COLUMN_ENVELOPE_COLOR + " INTEGER, "
-            + DatabaseContract.EnvelopeEntry.COLUMN_LAST_UPDATED + " DATETIME DEFAULT"
+            + DatabaseContract.EnvelopeEntry.COLUMN_LAST_UPDATED + " DATETIME"
             + " );";
 
     private static final String CREATE_TABLE_FLASHCARDS = "CREATE TABLE " + DatabaseContract.FlashCardsEntry.TABLE_NAME
@@ -26,6 +26,7 @@ public class DbHelper extends SQLiteOpenHelper {
             + DatabaseContract.FlashCardsEntry.COLUMN_FRONT_TEXT + " TEXT, "
             + DatabaseContract.FlashCardsEntry.COLUMN_BACK_TEXT + " TEXT, "
             + DatabaseContract.FlashCardsEntry.COLUMN_CREATED_AT + " DATETIME DEFAULT CURRENT_TIMESTAMP, "
+            + DatabaseContract.FlashCardsEntry.COLUMN_ENVELOPE_ID + " INTEGER, "
             + "FOREIGN KEY(" + DatabaseContract.FlashCardsEntry.COLUMN_ENVELOPE_ID +") "
             +" REFERENCES "+ DatabaseContract.EnvelopeEntry.TABLE_NAME+"("+ DatabaseContract.EnvelopeEntry._ID+")"
             + " );";
