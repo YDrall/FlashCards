@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="2dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:maxLines="8"
+        android:lines="8"
+        android:ellipsize="end"
+        android:background="#fff"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/lorem_ipsum_large"
+        android:textColor="@color/colorPrimaryDark"
+        />
+</android.support.v7.widget.CardView>

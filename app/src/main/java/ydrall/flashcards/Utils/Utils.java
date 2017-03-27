@@ -15,4 +15,9 @@ public class Utils {
         Date date = new Date();
         return dateFormat.format(date);
     }
+
+    public static float getFloat(float value,float minValue,float maxValue){
+        return Math.min(maxValue, Math.max(minValue, value));
+    }
+
 }
