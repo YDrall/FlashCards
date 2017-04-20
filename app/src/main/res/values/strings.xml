@@ -10,4 +10,11 @@ Legimus tamen Diogenem, Antipatrum, Mnesarchum, Panaetium, multos alios in primi
 Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Hic quoque suus est de summoque bono dissentiens dici vere Peripateticus non potest. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; Tanta vis admonitionis inest in locis; Quo modo autem optimum, si bonum praeterea nullum est? Paupertas si malum est, mendicus beatus esse nemo potest, quamvis sit sapiens. Ex quo intellegitur, quoniam se ipsi omnes natura diligant, tam insipientem quam sapientem sumpturum, quae secundum naturam sint, reiecturumque contraria. Hoc positum in Phaedro a Platone probavit Epicurus sensitque in omni disputatione id fieri oportere. Sed tu istuc dixti bene Latine, parum plane. In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est.
 
 Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Non igitur bene. Suo enim quisque studio maxime ducitur. Est autem etiam actio quaedam corporis, quae motus et status naturae congruentis tenet; Nam Pyrrho, Aristo, Erillus iam diu abiecti. Si est nihil nisi corpus, summa erunt illa: valitudo, vacuitas doloris, pulchritudo, cetera. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret. Quasi vero aut concedatur in omnibus stultis aeque magna esse vitia, et eadem inbecillitate et inconstantia L.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_flash_card">Add a flash card</string>
+    <string name="menu_main_item_setting">Setting</string>
+    <string name="menu_addCard_item_save">save</string>
+    <string name="menu_addCard_item_cancel">Cancel</string>
 </resources>
