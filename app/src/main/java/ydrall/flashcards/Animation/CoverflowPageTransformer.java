@@ -1,11 +1,11 @@
 package ydrall.flashcards.Animation;
 
-import android.support.v4.view.ViewPager;
 import android.view.View;
 
 import ydrall.flashcards.Utils.Utils;
+import ydrall.flashcards.ui.VelocityViewPager;
 
-public class CoverflowPageTransformer implements ViewPager.PageTransformer {
+public class CoverflowPageTransformer implements VelocityViewPager.PageTransformer {
     private float MIN_SCALE_X = 0.85f;
     private float MIN_SCALE_Y = 0.85f;
     private static final float MIN_ALPHA = 1.0f;

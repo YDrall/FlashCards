@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ydrall.flashcards.ui.AddCardFragment">
+
+    <EditText
+        android:id="@+id/fragment_addCard_editText_content"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:linksClickable="true"
+        android:gravity="clip_vertical"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:ellipsize="end"
+        android:background="#fff"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter your text here"
+        android:cursorVisible="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textCursorDrawable="@null"
+        android:autoLink="all"
+        />
+
+</FrameLayout>

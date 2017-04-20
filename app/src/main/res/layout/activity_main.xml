@@ -7,15 +7,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:clipChildren="false"
-    tools:context="ydrall.flashcards.MainActivity">
+    tools:context="ydrall.flashcards.ui.MainActivity">
 
-        <android.support.v4.view.ViewPager
+        <ydrall.flashcards.ui.VelocityViewPager
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:clipChildren="false"
             android:layout_margin="40dp"
             android:id="@+id/viewpager_main">
-        </android.support.v4.view.ViewPager>
+        </ydrall.flashcards.ui.VelocityViewPager>
 
 </RelativeLayout>
