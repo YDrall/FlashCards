@@ -1,9 +1,11 @@
 package ydrall.flashcards.model;
 
+import android.os.Parcelable;
+
 import com.google.auto.value.AutoValue;
 
 @AutoValue
-public abstract class FlashCard {
+public abstract class FlashCard implements Parcelable {
 
     public abstract int id();
     public abstract String frontText();
