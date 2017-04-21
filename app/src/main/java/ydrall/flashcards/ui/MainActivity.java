@@ -3,6 +3,7 @@ package ydrall.flashcards.ui;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity implements AsyncCards.AsyncC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         pager = (VelocityViewPager) findViewById(R.id.viewpager_main);
         pager.setPageTransformer(true, new CoverflowPageTransformer(0.1f,0f,0f,0f));
